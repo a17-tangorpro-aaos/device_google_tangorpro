@@ -18,8 +18,8 @@ TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_TANGORPRO_VERSION)
 # Keeps flexibility for kasan and ufs builds
-TARGET_KERNEL_DIR := device/google/tangorpro-kernels/5.10/24Q3-12115410
-TARGET_BOARD_KERNEL_HEADERS := device/google/tangorpro-kernels/5.10/24Q3-12115410/kernel-headers
+TARGET_KERNEL_DIR := device/google/tangorpro-kernels/6.1/25Q1-12919773
+TARGET_BOARD_KERNEL_HEADERS := device/google/tangorpro-kernels/6.1/25Q1-12919773/kernel-headers
 
 BOARD_WITHOUT_RADIO := true
 
