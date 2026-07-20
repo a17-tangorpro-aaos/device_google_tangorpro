@@ -35,9 +35,12 @@ endif
 BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_TANGORPRO := true
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
+TARGET_KERNEL_DIR := device/google/tangorpro-kernels/6.1/25Q1-12919773
+TARGET_BOARD_KERNEL_HEADERS := device/google/tangorpro-kernels/6.1/25Q1-12919773/kernel-headers
 
 include device/google/gs201/BoardConfig-common.mk
 -include vendor/google_devices/gs201/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/tangorpro/proprietary/BoardConfigVendor.mk
 include device/google/tangorpro-sepolicy/tangorpro-sepolicy.mk
 include device/google/tangorpro/wifi/BoardConfig-wifi.mk
+TARGET_RECOVERY_UI_LIB := librecovery_ui_default
