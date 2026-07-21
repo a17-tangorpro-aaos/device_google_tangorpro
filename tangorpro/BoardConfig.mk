@@ -34,7 +34,7 @@ endif
 
 BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_TANGORPRO := true
-BOARD_KERNEL_CMDLINE += swiotlb=noforce
+BOARD_KERNEL_CMDLINE += swiotlb=noforce panic=0
 TARGET_KERNEL_DIR := device/google/tangorpro-kernels/6.1/25Q1-12919773
 TARGET_BOARD_KERNEL_HEADERS := device/google/tangorpro-kernels/6.1/25Q1-12919773/kernel-headers
 

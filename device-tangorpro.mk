@@ -303,3 +303,7 @@ PRODUCT_PACKAGES += \
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayGTU8P
+
+# Disable RescueParty to prevent automatic recovery loops
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
